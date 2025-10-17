@@ -1,0 +1,21 @@
+{
+  "name": "tailwindcss_frist-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "postcss styles.css -o dist/output.css",
+    "watch": "postcss styles.css -o dist/output.css --watch"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.14",
+    "postcss": "^8.5.6",
+    "postcss-cli": "^11.0.1",
+    "tailwindcss": "^4.1.14"
+  }
+}
